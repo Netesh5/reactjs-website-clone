@@ -2,5 +2,12 @@ body{
  margin:0px;
 }
 #nav-bar{
+    
+}
+ul{
     display: flex;
+    list-style-type: none;
+}
+li{
+    padding: 30px;
 }
