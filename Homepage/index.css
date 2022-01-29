@@ -1,2 +1,6 @@
-helloo prasiddha 
-hi prassanna
+body{
+ margin:0px;
+}
+#nav-bar{
+    display: flex;
+}
