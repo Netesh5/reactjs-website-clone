@@ -21,3 +21,7 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+ .btn-primary{
+    border: 0px !important;
+    background-color: #61DAFB;
+}
