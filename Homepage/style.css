@@ -16,9 +16,9 @@
 }
 .react-text{
     color: #54DAFB;
-   font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: bolder;
-   font-size: 1.2em;
+   font-size: 1em;
 }
 /* active=clicked */
 .react-text:active{ 
@@ -33,17 +33,13 @@
 .nav-bar-items{
     display: flex;
     padding-left: 120px;
-    
-
 }
 li{
 padding: 20px;
 list-style-type: none;
 color: white;
 font: 1.1em sans-serif;
-
 }
-
 li:hover{
     color: #54DAFB;
     
@@ -64,13 +60,11 @@ input[type=text]{
     background-size: 16px 16px;
     padding-left: 40px;
     width: 170px;
-    
 }
 input[type=text]:focus{
     outline: none;
     background-color: #373940;
     border-radius: 5px;
-    
 }
 .version-text{
     color: white;
@@ -79,7 +73,6 @@ input[type=text]:focus{
 }
 .version-text:hover{
     color: #54DAFB;
-
 }
 .translate-logo{
     padding-left: 30px;
@@ -98,7 +91,6 @@ input[type=text]:focus{
 }
 .language:hover{
     color: #54DAFB;
-    
 }
 .github-link{
     color: white;
@@ -107,6 +99,5 @@ input[type=text]:focus{
 }
 .github-link:hover{
     color: #54DAFB;
-    
 }
 
