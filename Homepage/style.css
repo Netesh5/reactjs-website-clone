@@ -2,25 +2,55 @@
     margin: 0;
 }
 .nav-bar{
-    height: 40px;
+    height: 60px;
     background-color: #20232A;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 .react-logo{
-    height: 10px;
-    width: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    margin: 10px;
 }
+.react-text{
+    color: #54DAFB;
+   font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bolder;
+   font-size: 1.2em;
+}
+/* active=clicked */
+.react-text:active{ 
+    color: white;
+    text-decoration:none; 
+}
+/* link=unvisited */
+.react-text,a:link{
+    text-decoration:none;
+}
+
 .nav-bar-items{
     display: flex;
+    padding-left: 100px;
+    
 
 }
 li{
-padding: 10px;
+padding: 20px;
 list-style-type: none;
 color: white;
-font: 1em sans-serif;
+font: 1.1em sans-serif;
+
+
+
+
+
 }
 
+li:hover{
+    color: #54DAFB;
+}
 
 
 
