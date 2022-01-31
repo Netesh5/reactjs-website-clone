@@ -101,3 +101,158 @@ input[type=text]:focus{
     color: #54DAFB;
 }
 
+/* responsive-part */
+
+@media screen and (max-width: 1280px) {
+    .nav-bar{
+        height: 50px; 
+    }
+    .get-started-tab::before{
+        display: none;
+    }
+    .get-started-tab{
+        height: 300px;
+    }
+    #heading{
+        font-size: 45px;
+    }
+    #sub-heading{
+        font-size: 20px;
+    }
+    .sample-component{
+       flex-direction: column;
+    }
+    
+    .main-compiler{
+         margin-left: 100px;
+       width: 700px !important;
+    }
+    .sample-comp{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .para4 br{
+        display: none;
+    }
+    .result-box{
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 1210px){
+    .search-bar input[type=text]{
+        transition: ease-in 0.5s;
+        width: 20px;
+    }
+}
+@media  screen and (max-width: 1100px) {
+    .nav-bar .nav-bar-items li{
+        padding: 10px;
+        transition: ease-in 0.5s;
+    }
+    .nav-bar{
+        padding: 20px;
+        transition: ease-in 0.5s;
+    }
+    .version-text{
+        padding-left: 5px;
+        /* font-size: 15px; */
+    }
+    .language{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 1030px){
+    .github-link{
+        display: none;
+        transition: ease-in 0.5s;
+    }
+    .compartment1{
+        flex-direction: column;
+    }
+    .component-Based{
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width:780px) {
+    .language{
+        display: none;
+    }
+    .nav-bar-items{
+        padding-left: 60px;
+        transition: ease-in 0.5s;
+        
+    }
+    .react-logo{
+        padding-left: 20px;
+    }
+    .search-bar{
+        padding-left: 40px;
+    }
+    .version-text{
+        display: none;
+    }
+    .bottom-nav{
+        height: 100px;
+    }
+    .button-nav{
+        padding-top:20px ;
+    }
+    .body-component{
+        -webkit-mask-image: linear-gradient(to right, transparent, white 10px, white 90%, transparent);
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .para1 br{
+        display: none;
+    }
+    .para2 br{
+        display: none;
+    }
+    .para3 br{
+        display: none;
+    }
+    .live-component{
+        flex-direction: row;
+    }
+    .sample-component{
+        margin-top: 20px !important;
+    }
+    .sample-comp{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .react-text{
+        display: none;
+        transition: ease-in 0.5s;;
+    }
+    .nav-bar-items{
+        padding-left: 30px;
+        transition: ease-in 0.5s;
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+
+    .nav-bar-items{
+        padding-left: 40px;
+        transition: ease-in 0.5s;
+        
+    }
+    .react-logo{
+        padding-left: 10px;
+    }
+    .search-bar{
+        padding-left: 20px;
+    }
+    .sample-comp{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+
+}
