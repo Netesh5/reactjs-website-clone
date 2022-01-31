@@ -1,0 +1,21 @@
+.code{
+    text-align: left;
+}
+.token.class-name{
+    color: rgb(250, 200, 99);
+}
+.token.function {
+    color: rgb(121, 182, 242);
+}
+.token.keyword {
+    color: rgb(197, 165, 197);
+}
+.token.tag {
+    color: rgb(252, 146, 158);
+}
+.token.punctuation {
+    color: rgb(136, 198, 190);
+}
+span{
+    color: white;
+}
