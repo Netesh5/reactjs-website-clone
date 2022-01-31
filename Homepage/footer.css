@@ -32,12 +32,12 @@
 }
 .docs-title{
     color: #999;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-align: center;
     padding-top: 50px;
 }
-.docs-links-li{
-    padding: 10px;
+.links ul a li{
+    padding: 1px;
 }
