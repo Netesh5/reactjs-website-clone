@@ -1,10 +1,11 @@
+.main-compiler{
+    overflow-y: scroll;
+}
 .code{
     margin: 1rem;
     font-size: 14px;
     white-space:  pre-wrap;
-    margin: 0px ;
-   
-    
+    margin: 0 px ;
 }
 .token.class-name{
     color: rgb(250, 200, 99);
@@ -20,6 +21,9 @@
 }
 .token.punctuation {
     color: rgb(136, 198, 190);
+}
+.token.attr-value {
+    color: rgb(141, 200, 145);
 }
 span{
     color: white;
