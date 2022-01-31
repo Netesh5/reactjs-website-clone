@@ -89,7 +89,7 @@ hr{
     height: 350px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    border: 1px solid #999999;
+    border: 1px solid #ECECEC;
 }
 .result{
     background-color: #ECECEC;
@@ -103,6 +103,33 @@ hr{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.08em;
+}
+.result-box .result-value .todos-example form input{
+    width: 90%;
+    
+}
+.todo-button{
+    margin-top:10px ;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+.markdown{
+    color: black;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.markdown span{
+    color: black;
+}
+.markdown textarea{
+    font-weight: 500;
+    
+}
+.output{
+    padding-left: 10px;
+}
+.output span{
+    color: black;
 }
 
 
