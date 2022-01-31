@@ -130,8 +130,8 @@ React can also render on the server using Node<br>
               </div>
             </div>
 
-            <pre class="prism-code" spellcheck="false" contenteditable="true">
-                <span class="token keyword">class</span> <span class="token class-name">HelloMessage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+    <pre class="code" spellcheck="false" contenteditable="true">
+            <span class="token keyword">class </span><span class="token class-name">HelloMessage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
                 <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
                   <span class="token keyword">return</span> <span class="token punctuation">(</span>
                     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
@@ -140,7 +140,7 @@ React can also render on the server using Node<br>
                   <span class="token punctuation">)</span><span class="token punctuation">;</span>
                 <span class="token punctuation">}</span>
               <span class="token punctuation">}</span>
-              
+
               <span>ReactDOM</span><span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
                 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>HelloMessage</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Taylor<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">,</span>
                 <span>document</span><span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'hello-example'</span><span class="token punctuation">)</span>
@@ -152,10 +152,186 @@ React can also render on the server using Node<br>
             <div class="result">
                 <h6 class="result-text"> Result</h6>
             </div>
+            <div class="result-value">Hello Coder</div>
         </div>
     </div>
     </div>
      
+
+    <!-- compiler-part2 -->
+    <div class="sample-component">
+        <div class="sample-comp">
+            <h3 class="sample">
+                A Sample Component
+            </h3>
+            <p class="para4">
+                React components implement a render()<br>
+                 method that takes input data and returns<br>
+                  what to display. This example uses an XML-<br>
+                  like syntax called JSX. Input data that is<br>
+                   passed into the component can be accessed <br>
+                   by render() via this.props.<br><br>
+                   <b>JSX is optional and not required to use<br>
+                    React.</b> Try the Babel REPL to see the raw <br>
+                    JavaScript code produced by the JSX<br>
+                    compilation step.
+            </p>
+        </div>
+        <div class="live-component">
+        <div class="main-compiler">
+            <div class="compiler-name">
+               <h6 class="live-text"> LIVE JSX EDITOR</h6>
+              <div class="checkbox">
+                <form>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="jsx" checked>
+                    <label for="checkbox">JSX?</label>
+                </form>
+              </div>
+            </div>
+
+    <pre class="code" spellcheck="false" contenteditable="true">
+            <span class="token keyword">class </span><span class="token class-name">HelloMessage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+                <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                     <span>Hello</span>  <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span>props</span><span class="token punctuation">.</span><span>name</span><span class="token punctuation">}</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+              <span class="token punctuation">}</span>
+
+              <span>ReactDOM</span><span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>HelloMessage</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Taylor<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">,</span>
+                <span>document</span><span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'hello-example'</span><span class="token punctuation">)</span>
+              <span class="token punctuation">)</span><span class="token punctuation">;</span></pre>
+
+
+        </div>
+        <div class="result-box">
+            <div class="result">
+                <h6 class="result-text"> Result</h6>
+            </div>
+            <div class="result-value">Hello Coder</div>
+        </div>
+    </div>
+    </div>
+
+    <!-- compiler-part3 -->
+    <div class="sample-component">
+        <div class="sample-comp">
+            <h3 class="sample">
+                A Sample Component
+            </h3>
+            <p class="para4">
+                React components implement a render()<br>
+                 method that takes input data and returns<br>
+                  what to display. This example uses an XML-<br>
+                  like syntax called JSX. Input data that is<br>
+                   passed into the component can be accessed <br>
+                   by render() via this.props.<br><br>
+                   <b>JSX is optional and not required to use<br>
+                    React.</b> Try the Babel REPL to see the raw <br>
+                    JavaScript code produced by the JSX<br>
+                    compilation step.
+            </p>
+        </div>
+        <div class="live-component">
+        <div class="main-compiler">
+            <div class="compiler-name">
+               <h6 class="live-text"> LIVE JSX EDITOR</h6>
+              <div class="checkbox">
+                <form>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="jsx" checked>
+                    <label for="checkbox">JSX?</label>
+                </form>
+              </div>
+            </div>
+
+    <pre class="code" spellcheck="false" contenteditable="true">
+            <span class="token keyword">class </span><span class="token class-name">HelloMessage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+                <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                     <span>Hello</span>  <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span>props</span><span class="token punctuation">.</span><span>name</span><span class="token punctuation">}</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+              <span class="token punctuation">}</span>
+
+              <span>ReactDOM</span><span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>HelloMessage</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Taylor<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">,</span>
+                <span>document</span><span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'hello-example'</span><span class="token punctuation">)</span>
+              <span class="token punctuation">)</span><span class="token punctuation">;</span></pre>
+
+
+        </div>
+        <div class="result-box">
+            <div class="result">
+                <h6 class="result-text"> Result</h6>
+            </div>
+            <div class="result-value">Hello Coder</div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- compiler-part4 -->
+    <div class="sample-component">
+        <div class="sample-comp">
+            <h3 class="sample">
+                A Sample Component
+            </h3>
+            <p class="para4">
+                React components implement a render()<br>
+                 method that takes input data and returns<br>
+                  what to display. This example uses an XML-<br>
+                  like syntax called JSX. Input data that is<br>
+                   passed into the component can be accessed <br>
+                   by render() via this.props.<br><br>
+                   <b>JSX is optional and not required to use<br>
+                    React.</b> Try the Babel REPL to see the raw <br>
+                    JavaScript code produced by the JSX<br>
+                    compilation step.
+            </p>
+        </div>
+        <div class="live-component">
+        <div class="main-compiler">
+            <div class="compiler-name">
+               <h6 class="live-text"> LIVE JSX EDITOR</h6>
+              <div class="checkbox">
+                <form>
+                    <input type="checkbox" id="checkbox" name="checkbox" value="jsx" checked>
+                    <label for="checkbox">JSX?</label>
+                </form>
+              </div>
+            </div>
+
+    <pre class="code" spellcheck="false" contenteditable="true">
+            <span class="token keyword">class </span><span class="token class-name">HelloMessage</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span>
+                <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+                     <span>Hello</span>  <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span><span>props</span><span class="token punctuation">.</span><span>name</span><span class="token punctuation">}</span>
+                    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+              <span class="token punctuation">}</span>
+
+              <span>ReactDOM</span><span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>HelloMessage</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Taylor<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">,</span>
+                <span>document</span><span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'hello-example'</span><span class="token punctuation">)</span>
+              <span class="token punctuation">)</span><span class="token punctuation">;</span></pre>
+
+
+        </div>
+        <div class="result-box">
+            <div class="result">
+                <h6 class="result-text"> Result</h6>
+            </div>
+            <div class="result-value">Hello Coder</div>
+        </div>
+    </div>
+    </div>
      
 
 </body>
