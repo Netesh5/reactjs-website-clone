@@ -11,20 +11,18 @@ input[type=text]{
     padding-left: 40px !important;
     padding-bottom: 20px ;
 }
-
 .blank{
     height: 80px;
-    
+
 }
 .links ul a li{
     padding: 6px !important;
     line-height: 1.2;
 }
+
 .copyright{
     font-size: 1rem;
 }
-
-
 
 @media screen and (max-width: 1210px){
     .search-bar input[type=text]{

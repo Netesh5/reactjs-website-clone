@@ -52,7 +52,6 @@ font-size: 18px;
 }
 li:hover{
     color: #54DAFB;
-    
 }
 .search-bar{
     padding-left: 80px;
@@ -349,8 +348,11 @@ input[type=text]:focus{
         width: 84% !important;
     }
     .footer{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .links li{
+        font-size: 14px;
     }
    
 }

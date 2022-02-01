@@ -142,6 +142,7 @@ input[type=text]{
     .last-text{
         padding-left: 50px;
     }
+    
 }
 @media screen and (max-width: 480px){
     .comp1{  
