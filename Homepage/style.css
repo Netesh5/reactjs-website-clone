@@ -175,12 +175,15 @@ input[type=text]:focus{
     
 }
 @media screen and (max-width:780px) {
+    
     .language{
         display: none;
+       
     }
     .nav-bar-items{
         padding-left: 60px;
         transition: ease-in 0.5s;
+        -webkit-mask-image: linear-gradient(to right, transparent, white 10px, white 90%, transparent);
         
     }
     .react-logo{
@@ -188,6 +191,7 @@ input[type=text]:focus{
     }
     .search-bar{
         padding-left: 40px;
+       
     }
     .version-text{
         display: none;
@@ -198,11 +202,21 @@ input[type=text]:focus{
     .button-nav{
         padding-top:20px ;
     }
+    .get-started-tab{
+        height: 350px !important;
+    }
+    #heading{
+        padding-top: 90px !important;
+        font-size: 40px !important;
+    }
+    #sub-heading{
+        font-size: 20px !important;
+    }
     .body-component{
         -webkit-mask-image: linear-gradient(to right, transparent, white 10px, white 90%, transparent);
         flex-direction: column;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .para1 br{
@@ -215,14 +229,41 @@ input[type=text]:focus{
         display: none;
     }
     .live-component{
-        flex-direction: row;
+        flex-direction: column !important;
     }
     .sample-component{
         margin-top: 20px !important;
     }
     .sample-comp{
         padding-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
+   
+    .main-compiler{
+        margin-left: 50px;
+        margin-right: 50px ;
+        width: 600px !important;
+        
+    }
+    .result-box{
+        margin-right: 50px;
+        margin-left: 50px;
+        width: 86% !important;
+        height: 100px !important;
+        overflow-y: scroll;
+
+    }
+    /* .markdown{
+        font-size: 14px;
+        margin-top: 10px;
+    } */
+    .output h3{
+        font-size: 14px;
+        
+    }
+    
+    
 }
 @media screen and (max-width: 600px) {
     .react-text{
@@ -234,25 +275,72 @@ input[type=text]:focus{
         transition: ease-in 0.5s;
         
     }
+    .main-compiler{
+        margin-left: 20px;
+   }
+   .result-box{
+       margin-right: 20px;
+       
+   }
+
     
 }
 @media screen and (max-width: 480px){
 
     .nav-bar-items{
-        padding-left: 40px;
+        padding-left: 1px;
         transition: ease-in 0.5s;
         
     }
     .react-logo{
-        padding-left: 10px;
+        padding-left: 0px;
     }
     .search-bar{
         padding-left: 20px;
+    }
+    .body-component{
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .sample-comp{
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
     }
-
+    .get-started-tab{
+        height: 300px !important;
+    }
+    #heading{
+        padding-top: 90px !important;
+        font-size: 30px !important;
+    }
+    #sub-heading{
+        font-size: 20px !important;
+    }
+    .body-component{
+        margin-top: 30px !important;
+    }
+    .get-started-btn{
+        padding: 8px 20px !important;
+        font-size: 15px !important;
+    }
+    .get-started-tour-text{
+        font-size: 15px !important;
+    }
+    .main-compiler{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        width: 400px !important;
+    }
+    .result-box{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 84% !important;
+    }
+    .footer{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+   
 }
