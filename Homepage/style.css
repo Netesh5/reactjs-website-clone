@@ -40,6 +40,35 @@
     align-items: center;
     
 }
+.nav-bar-items li:active{
+    background-color: white;
+    opacity: 0.3;
+}
+.nav-bar-items li a:active{
+    border-bottom: 6px solid #61dafb;
+}
+.nav-bar-items li:focus{
+    content: "";
+    border-bottom: 3px solid #61dafb;
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom: -18px;
+    opacity: 1;
+}
+.version-text:active{
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 20px;
+    width: fit-content;
+    
+}
+.language:active{
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 20px;
+    width: fit-content;
+}
 li{
 padding: 20px;
 list-style-type: none;
@@ -52,6 +81,16 @@ font-size: 18px;
 }
 li:hover{
     color: #54DAFB;
+}
+
+.nav-bar-items .indicator{
+    border-bottom: 4px solid #54DAFB;
+    transition: ease-in 0.5s;
+    width: fit-content;
+    color:#54DAFB;
+}
+.highlight{
+    color:#54DAFB;
 }
 .search-bar{
     padding-left: 80px;
@@ -101,6 +140,8 @@ input[type=text]:focus{
 .github-link:hover{
     color: #54DAFB;
 }
+
+
 
 /* responsive-part */
 
